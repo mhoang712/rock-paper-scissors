@@ -1,6 +1,6 @@
 # Rock - Paper - Scissors qua Camera (MediaPipe Hands + OpenCV)
 
-Bài tập lớn môn **Lập trình Python**: trò chơi **Búa - Kéo - Bao** tương tác bằng cử chỉ bàn tay thật trước camera.
+Bài tập môn **Nhập môn lập trình**: trò chơi **Búa - Kéo - Bao** tương tác bằng cử chỉ bàn tay thật trước camera.
 
 Python
 OpenCV
@@ -67,7 +67,7 @@ rock-paper-scissors/
 ### 1. Tải mã nguồn
 
 ```bash
-git clone <link-repository-cua-ban>
+git clone https://github.com/mhoang712/rock-paper-scissors
 cd rock-paper-scissors
 ```
 
@@ -101,7 +101,7 @@ python main.py
 
 ## Hướng dẫn sử dụng
 
-1. Chạy chương trình, đứng hoặc ngồi cách camera khoảng 50 - 80 cm, đủ ánh sáng.
+1. Chạy chương trình, đứng hoặc ngồi cách camera khoảng 40 - 50 cm, đủ ánh sáng.
 2. Giơ **bàn tay thẳng đứng, lòng bàn tay hướng về camera**. Ở trạng thái chờ, màn hình hiển thị cử chỉ và mảng 5 ngón tay theo thời gian thực để bạn làm quen.
 3. Nhấn **Space** để bắt đầu hiệp mới. Màn hình đếm ngược **3 → 2 → 1**.
 4. Giữ nguyên cử chỉ. Đến mốc 0 giây, chương trình chốt cử chỉ của bạn, máy tính chọn ngẫu nhiên và hiển thị kết quả hiệp trong 2.5 giây.
